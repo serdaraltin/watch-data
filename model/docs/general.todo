@@ -1,0 +1,121 @@
+☐ Setup script
+    ☐ Install system packages 
+    ☐ Install drivers
+    ☐ Create virtual environment 
+    ☐ Install requirements 
+    ☐ Setting up configuration from file
+
+☐ Dependency Checking Mechanism
+    ✔ Permission @today @done (12/29/2023, 12:41:31 PM)
+    ✔ File & Folder @high @today @done (1/2/2024, 4:51:40 PM)
+    ✔ Configuration @high @today @done (1/3/2024, 6:06:47 PM)
+    ✔ Models @today @done (1/2/2024, 4:51:41 PM)
+    ✔ Ports @today @done (1/2/2024, 4:51:42 PM)
+    ✔ Datetime @today @done (1/2/2024, 4:51:44 PM)
+    ✔ Camera @done (1/2/2024, 4:52:25 PM)
+    ✔ Database @today @low @done (1/2/2024, 5:43:32 PM)
+    ☐ Cors 
+
+☐ Cleaning
+    ✔ Garbage @done (12/29/2023, 2:23:16 AM)
+    ☐ Temp 
+    ☐ Indexing 
+
+☐ Archiving
+    ☐ Log @low 
+    ☐ System usage @low 
+
+☐ Configuration
+    ✔ config.py @done (12/29/2023, 2:22:48 AM)
+    ✔ All Test @done (12/29/2023, 2:22:50 AM)
+    ☐ Auto Save @low 
+    ✔ Fresh Create @done (12/29/2023, 2:22:52 AM)
+
+☐ Logging
+    ☐ Message Class
+    ☐ Info, Warning, Error
+    ☐ Debug/Normal mode
+    ☐ back_process.py
+    ☐ person_count.py
+    ☐ views.py (excluding get_blur_image)
+    ☐ websocketio.py
+    ☐ All system logging
+    ☐ age_and_gender module (after the update)
+      
+☐ Database
+    ☐ Connector @today 
+    ☐ Interface @today 
+    
+    ☐ Local Database (SQLite)
+        ✔ Connector @today @done (04.01.2024 17:45:19)
+        ✔ Interface @today @done (04.01.2024 17:45:19)
+        ☐ Model @low 
+
+☐ Interface
+    ☐ Base (id, createdAt, updatedAt) @today 
+        ☐ __dict__ @today 
+        ☐ __str__ @today 
+        ✔ Person @done (08.01.2024 18:06:24)
+            ✔ Age @today @done (08.01.2024 18:06:22)
+            ✔ Gender @today @done (08.01.2024 18:06:18)
+    ✔ Camera @today @done (08.01.2024 18:06:15)
+
+☐ Model 
+    ☐ All Modules 
+        ✔ "__dict__" for Json Data @today @done (10.01.2024 17:50:32)
+        ✔ "str" for Print Data @today @done (10.01.2024 17:50:33)
+    ✔ Camera @today @done (08.01.2024 18:06:12)
+    ✔ Person Count @done (08.01.2024 18:06:10)
+        ✔ Age @today @done (08.01.2024 18:06:08)
+        ✔ Gender @today @done (08.01.2024 18:06:02)
+
+☐ Module
+    ☐ Camera 
+    ☐ Person Counter 
+        ☐ Sub Module 
+            ☐ Enter Exit @today 
+            ☐ Age @today 
+            ☐ Gender @today 
+
+☐ Config
+    ☐ Render device auto switching @today @low 
+
+☐ Library
+    ☐ Camera
+        ☐ Common functions @today @critical 
+    ✔ Drawing @today @done (10.01.2024 17:51:03)
+    ✔ Geometry @today @done (10.01.2024 17:51:04)
+    ✔ Mathematic @today @done (10.01.2024 17:51:04)
+    ☐ Gui
+        ☐ Video window @today 
+        ☐ Line drawing window @today 
+        ☐ Benchmark @low 
+
+☐ Refactor
+    ☐ Modules
+        ☐ Counter Person
+            ☐ Counter @today
+            ☐ Utils 
+            ☐ Face Blur     
+
+☐ Fix
+    ✔ Config @today @critical @done (1/3/2024, 5:54:15 PM)
+    ☐ Generic Import Library @low  
+    ☐ Cv2 video render @today 
+
+☐ Test
+    ✔ Configuration @done (1/3/2024, 5:54:23 PM)
+        ✔ Preset @done (1/3/2024, 5:54:24 PM)
+        ✔ Config @done (1/3/2024, 5:54:24 PM)
+    ☐ Service 
+        ✔ Checking @done (1/3/2024, 5:54:19 PM)
+        ☐ Database write data
+    ☐ Database
+        ✔ Secondary Database @done (04.01.2024 17:45:13)
+            ✔ All Test @done (1/8/2024, 9:41:46 AM)
+        ☐ Main Database
+            ☐ All Test @high 
+    ☐ Library
+        ☐ All Library @high 
+    ☐ Module
+        ☐ Person Counter

@@ -1,0 +1,29 @@
+{
+    "id": -1,
+    "camera_id": 101,
+    "detection_time": "2024-01-16T14: 09: 18.884947",
+    "label": "person",
+    "confidence": 0.85,
+    "createdAt": "2024-01-16T14: 09: 18.885018",
+    "updatedAt": "2024-01-16T14: 09: 18.885020",
+    
+    "age": null,
+
+    "gender": {
+        "id": -1,
+        "person_id": 1,
+        "gender": "female",
+        "confidence": 0.5,
+        "createdAt": "2024-01-16T14: 09: 18.885002",
+        "updatedAt": "2024-01-16T14: 09: 18.885003"
+    },
+    "enter_exit": {
+        "id": -1,
+        "person_id": 1,
+        "event_time": "2024-01-16T14: 09: 18.884947",
+        "event_type": "exit",
+        "createdAt": "2024-01-16T14: 09: 18.884970",
+        "updatedAt": "2024-01-16T14: 09: 18.884972"
+    }
+
+}

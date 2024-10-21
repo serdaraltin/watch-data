@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Örnek API",
+      "description": "Bu bir örnek API dokümantasyonudur.",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3002"
+      }
+    ],
+    "paths": {
+      "/api/export-pdf": {
+        "post": {
+          "summary": "PDF olarak veri dışa aktar",
+          "description": "Belirli bir şube için belirli bir tarih aralığında verileri PDF olarak dışa aktarır.",
+          "responses": {
+            "200": {
+              "description": "Başarılı Yanıt"
+            },
+            "500": {
+              "description": "İç Sunucu Hatası"
+            }
+          }
+        }
+      },
+      "/api/get-blur-image/": {
+        "post": {
+          "summary": "Videoyu işleyip bulanıklaştırılmış bir resim döndür",
+          "description": "Belirtilen video URL'sinden bir resmi işler ve bulanıklaştırır.",
+          "responses": {
+            "200": {
+              "description": "Başarılı Yanıt",
+              "content": {
+                "image/jpeg": {}
+              }
+            }
+          }
+        }
+      },
+      "/api/export": {
+        "post": {
+          "summary": "Belirli bir şube için verileri dışa aktar",
+          "description": "Belirli bir şube için belirli bir tarih aralığında verileri dışa aktarır.",
+          "responses": {
+            "200": {
+              "description": "Başarılı Yanıt"
+            },
+            "400": {
+              "description": "Geçersiz İstek"
+            },
+            "404": {
+              "description": "Veri Bulunamadı"
+            },
+            "500": {
+              "description": "İç Sunucu Hatası"
+            }
+          }
+        }
+      }
+    }
+  }
+  

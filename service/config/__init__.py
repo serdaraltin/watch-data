@@ -1,0 +1,1 @@
+from .config_manager import aws_config, database_config

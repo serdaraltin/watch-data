@@ -1,0 +1,237 @@
+{
+    "setting": {
+        "debug": true,
+        "device_": {
+            "type": "cpu",
+            "switch": true
+        },
+        "device": "cpu",
+        "network": {
+            "host": "127.0.0.1",
+            "port": 5000,
+            "backend": {
+                "host": "127.0.0.1",
+                "port": 3000
+            },
+            "database": {
+                "provider": "postgresql",
+                "host": "",
+                "port": 5532,
+                "database": "",
+                "user": "",
+                "password": ""
+            }
+        },
+        "model": {
+            "detect": {
+                "person": {
+                    "name": "yolov8n",
+                    "type": "pt"
+                },
+                "gender": {
+                    "name": "genderv1e100",
+                    "type": "pth"
+                }
+            }
+        },
+        "processing": {
+            "show_window": false,
+            "source": {
+                "6": {
+                    "video_path": "rtsp://...",
+                    "point_data": {
+                        "points": [
+                            [
+                                840,
+                                338
+                            ],
+                            [
+                                1009,
+                                358
+                            ]
+                        ],
+                        "threshold_time": 5,
+                        "enter_direction": [
+                            0,
+                            1
+                        ]
+                    },
+                    "camera_id": 6
+                },
+                "9": {
+                    "video_path": "rtsp://...",
+                    "point_data": {
+                        "points": [
+                            [
+                                374,
+                                811
+                            ],
+                            [
+                                320,
+                                1035
+                            ]
+                        ],
+                        "threshold_time": 5,
+                        "enter_direction": [
+                            0,
+                            1
+                        ]
+                    },
+                    "camera_id": 9
+                },
+                "10": {
+                    "video_path": "rtsp://...",
+                    "point_data": {
+                        "points": [
+                            [
+                                1373,
+                                381
+                            ],
+                            [
+                                1574,
+                                475
+                            ]
+                        ],
+                        "threshold_time": 5,
+                        "enter_direction": [
+                            1,
+                            0
+                        ]
+                    },
+                    "camera_id": 10
+                },
+                "12": {
+                    "video_path": "rtsp://...",
+                    "point_data": {
+                        "points": [
+                            [
+                                1390,
+                                528
+                            ],
+                            [
+                                1469,
+                                471
+                            ]
+                        ],
+                        "points_masa": [
+                            [
+                              [923, 386],
+                              [1093, 296],
+                              [1249, 368],
+                              [1052, 496],
+                              [971, 452]
+                            ],
+                            [
+                              [700, 268],
+                              [844, 193],
+                              [982, 274],
+                              [830, 396],
+                              [741, 351]
+                            ],
+                            [
+                              [780, 196],
+                              [626, 265],
+                              [576, 270],
+                              [545, 215],
+                              [695, 167]
+                            ],
+                            [
+                              [461, 161],
+                              [548, 133],
+                              [586, 100],
+                              [614, 135],
+                              [486, 196]
+                            ],
+                            [
+                              [203, 282],
+                              [360, 208],
+                              [307, 274],
+                              [283, 326],
+                              [237, 344]
+                            ],
+                            [
+                              [65, 318],
+                              [133, 290],
+                              [163, 382],
+                              [69, 390],
+                              [66, 361]
+                            ],
+                            [
+                              [53, 481],
+                              [129, 459],
+                              [242, 511],
+                              [167, 636],
+                              [64, 675]
+                            ],
+                            [
+                              [80, 776],
+                              [113, 957],
+                              [398, 954],
+                              [305, 768],
+                              [186, 733]
+                            ],
+                            [
+                              [307, 326],
+                              [347, 279],
+                              [406, 252],
+                              [455, 308],
+                              [371, 415]
+                            ],
+                            [
+                              [654, 447],
+                              [534, 324],
+                              [453, 357],
+                              [432, 476],
+                              [502, 555]
+                            ],
+                            [
+                              [545, 624],
+                              [634, 743],
+                              [794, 745],
+                              [742, 507],
+                              [607, 565]
+                            ]
+                          ],
+
+                        "threshold_time": 5,
+                        "enter_direction": [
+                            0,
+                            1
+                        ]
+                    },
+                    "camera_id": 12
+                }
+            },
+            "repeated_time": 300,
+            "topic_reload_time": {
+                "hour": 0,
+                "minute": 0
+            },
+            "gc_clean_time": 60,
+            "threshold_time_default": 5
+        },
+        "module": {
+            "detect": {
+                "enter_exit": true,
+                "gender": true,
+                "age": true,
+                "density": true
+            }
+        },
+        "schedule": {
+            "schedule_config": {
+                "1": {
+                    "time": 0.1,
+                    "count": 5
+                },
+                "2": {
+                    "time": 5,
+                    "count": 5
+                },
+                "3": {
+                    "time": 30
+                }
+            }
+        }
+    }
+}

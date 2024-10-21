@@ -1,0 +1,7 @@
+{
+    "host": "16.170.149.181",
+    "port": 5532,
+    "database": "watch-data-dev",
+    "user": "postgres",
+    "password": "watch-data"
+}

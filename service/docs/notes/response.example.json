@@ -1,0 +1,49 @@
+{
+    "day": {
+      "result": [
+        {
+          "starttime": "10:00",
+          "endtime": "11:00",
+          "timeLabel": "10:00",
+          "totalCustomers": { "enter": 51, "exit": 60, "total": 51 },
+          "maleCustomers": { "enter": 0, "exit": 0, "total": 0 },
+          "femaleCustomers": { "enter": 25, "exit": 25, "total": 0 },
+          "average": 0.4594594594594595
+        },
+        {
+          "starttime": "11:00",
+          "endtime": "12:00",
+          "timeLabel": "11:00",
+          "totalCustomers": { "enter": 51, "exit": 60, "total": 51 },
+          "maleCustomers": { "enter": 0, "exit": 0, "total": 0 },
+          "femaleCustomers": { "enter": 25, "exit": 25, "total": 0 },
+          "average": 0.4594594594594595
+        }
+      ],
+      "totalAverage": 212.25
+    },
+    "week": {
+      "result": [
+        {
+          "starttime": "",
+          "endtime": "",
+          "timeLabel": "Pazartesi",
+          "totalCustomers": { "enter": 51, "exit": 60, "total": 51 },
+          "maleCustomers": { "enter": 0, "exit": 0, "total": 0 },
+          "femaleCustomers": { "enter": 25, "exit": 25, "total": 0 },
+          "average": 0.4594594594594595
+        },
+        {
+          "starttime": "",
+          "endtime": "",
+          "timeLabel": "Salı",
+          "totalCustomers": { "enter": 51, "exit": 60, "total": 51 },
+          "maleCustomers": { "enter": 0, "exit": 0, "total": 0 },
+          "femaleCustomers": { "enter": 25, "exit": 25, "total": 0 },
+          "average": 0.4594594594594595
+        }
+      ],
+      "totalAverage": 212.25
+    }
+  }
+  

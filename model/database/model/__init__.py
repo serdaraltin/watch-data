@@ -1,0 +1,1 @@
+from .model_postgre import PersonDB, GenderDB, AgeDB, EnterExitDB, CameraDB, DensityDB
